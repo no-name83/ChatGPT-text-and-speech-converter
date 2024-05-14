@@ -1,6 +1,6 @@
 You can do using this program:
 
-1)You can ask  questions to ChatGPT  and save the responses in any of the formats: "mp3", "aac", "flag", "pcm". You can access the audio files from the "output_speech" folder within the project.
+1)You can ask  questions to ChatGPT  and save the responses in any of the formats: "mp3", "aac", "flag", "pcm". You can access the audio files from the "output_speech" folder within the project.<br />
 
 2)You can write or copy any text and save it again in any of the following formats: "mp3", "aac", "flag", "pcm". You can access the sound files from the "output_speech" folder in the project.
 
