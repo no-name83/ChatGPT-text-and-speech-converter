@@ -164,6 +164,7 @@ curl_close($ch);
 function text($apiKey,$text,$format){
 
 //first delete old files
+  delete_old_speech_files();
   delete_old_output_files();
 
 $output_location="output_speech";
