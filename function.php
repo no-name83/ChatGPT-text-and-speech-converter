@@ -11,6 +11,18 @@ foreach($files as $file){
 }
 
 
+
+function delete_old_speech_files(){
+
+
+  $files = glob('output_speech/*'); 
+foreach($files as $file){
+    if(is_file($file))
+    unlink($file); 
+}
+}
+
+
  function delete_old_output_files(){
 
   $files = glob('output/*'); 
@@ -76,7 +88,7 @@ return $filename;
 
 function query_result($apiKey,$message,$format){
 
-
+  delete_old_speech_files();
   $output_location="output_speech";
  
 
